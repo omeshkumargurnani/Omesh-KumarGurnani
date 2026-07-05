@@ -1,1 +1,5 @@
-created code from chatgpt and make the code and started publishing the site 
+FROM nginx:alpine
+
+COPY . /usr/share/nginx/html
+
+EXPOSE 80
